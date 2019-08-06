@@ -1,0 +1,17 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+#content {
+    max-width: 700px;
+    margin: auto;
+    padding: 0px 10px;
+}
