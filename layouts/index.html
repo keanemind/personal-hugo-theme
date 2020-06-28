@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ range .Pages }}
+  {{ range .Site.RegularPages }}
     {{ partial "post.html" . }}
   {{ end }}
 {{ end }}

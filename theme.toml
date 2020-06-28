@@ -8,7 +8,7 @@ description = ""
 homepage = "https://github.com/keanemind/personal-hugo-theme"
 tags = []
 features = []
-min_version = "0.41"
+min_version = "0.57"
 
 [author]
   name = "Keane Nguyen"
