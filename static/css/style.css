@@ -15,7 +15,7 @@ header {
 }
 
 .post > .date {
-    float: right;
+    font-style: italic;
 }
 
 #content {
