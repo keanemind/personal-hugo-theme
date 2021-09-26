@@ -5,6 +5,7 @@
         <link rel="icon" href="{{ . }}">
     {{ end }}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    {{ $normalize:= resources.Get "css/normalize.css" | minify }}
+    {{ $style := resources.Get "css/style.css" | minify }}
+    <style>{{ $normalize.Content | safeCSS }}{{ $style.Content | safeCSS }}</style>
 </head>
