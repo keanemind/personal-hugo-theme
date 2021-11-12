@@ -18,6 +18,12 @@ header {
     font-style: italic;
 }
 
+a, code {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
 #content {
     max-width: 700px;
     margin: auto;
