@@ -15,7 +15,6 @@ pre {
 }
 
 a, code {
-    word-break: break-all;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
